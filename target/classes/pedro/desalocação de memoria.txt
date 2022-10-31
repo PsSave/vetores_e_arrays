@@ -1,0 +1,4 @@
+Garbage collector
+- É um processo que monitora o Heap e quando achar objetos que estão sem referencia, ele vai e desloca do sistema para liberar memoria.
+
+Variáveis locais são desalocadas imediatamente assim que seu escopo local sai de execução

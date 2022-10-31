@@ -1,0 +1,21 @@
+Classes são tipos referência 
+- A variáveis cujo o tipo são classes não devem ser entendidas como caixas, mas sim como ponteiros para essas caixas (uma formade orientação);
+
+Por exemplo: 
+Se eu tiver um Produto p1 e um p2 e o produto p1 recebe X dados, p1 vai apontar para os dados amontoados no objeto que está em uma caixa.
+E se p2 recebe p1, então p2 aponta para onde o p1 também está apontando.
+
+# Valor "null"
+- Tipos referência aceitam o valor "null", que ser para indicar que a variável não aponta para lugar nenhum.
+
+p2 = null; //significa que p2 não aponta para lugar nenhum.
+
+
+Tipos primitivos são tipos valor
+- No java, os tipos primitivos(double, int, String) são tipos valor. Diferente do tipo referência, o tipo valor são caixas.
+
+//tipos primitivos: boolean, char, byte, short, int, long, float, double//
+
+
+
+- tipos referência são classes e tipo valor são tipos primitivos -
